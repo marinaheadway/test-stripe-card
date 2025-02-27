@@ -36,6 +36,6 @@ app.post("/stripe/charge", cors(), async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT || 8070, () => {
   console.log("Server started...");
 });
